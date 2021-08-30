@@ -29,13 +29,13 @@ Appends characters to the alphabet. Any special chars may be used.
 
 Hexadecimal to decimal
 
-./bxc.py -B 16 -b 10 -O 1f ff
+./bxc.py -B 16 -b 10 ff
 
 255
 
 Binary to hexadecimal
 
-./bxc.py -B 2 -b 10 -O 1 100001
+./bxc.py -B 2 -b 10 100001
 
 33
 
