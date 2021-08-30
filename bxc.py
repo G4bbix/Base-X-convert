@@ -134,13 +134,13 @@ def main():
         if INPUT_ORDER is not None:
             INPUT_ALPHABET = calculate_alphabet_from_order(INPUT_ORDER)
         else:
-            INPUT_ALPHABET = "0123456789"
+            INPUT_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz"
 
     if OUTPUT_ALPHABET is None:
         if OUTPUT_ORDER is not None:
             OUTPUT_ALPHABET = calculate_alphabet_from_order(OUTPUT_ORDER)
         else:
-            OUTPUT_ALPHABET = "0123456789"
+            OUTPUT_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz"
 
     if INPUT_ALPHABET_APPEND is not None:
         INPUT_ALPHABET = "%s%s" %(INPUT_ALPHABET, INPUT_ALPHABET_APPEND)
