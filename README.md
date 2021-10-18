@@ -42,7 +42,7 @@ Binary to decimal
 
 33
 
-Base62 to Decimal
+Base62 to decimal
 
 ./bxc.py -B 62 -b 10 -O 1aA z192AF
 
