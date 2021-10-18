@@ -6,7 +6,7 @@ If there are more characters in the alphabet than the base any excessive charact
 ## Command line parameters
 usage: bxc.py [-h] [-B INPUT_BASE] [-b OUTPUT_BASE] [-O INPUT_ORDER]
               [-o OUTPUT_ORDER] [-A INPUT_ALPHABET] [-a OUTPUT_ALPHABET]
-              [-P INPUT_ALPHABET_APPEND] [-p OUTPUT_ALPHABET_APPEND]
+              [-P INPUT_ALPHABET_APPEND] [-p OUTPUT_ALPHABET_APPEND] [-e]
               INPUT_VALUE
 
 ### Explanation
@@ -25,6 +25,9 @@ Defines an alternative Alphabet. This option will override the -O and -o paramte
 -P, -p
 Appends characters to the alphabet. Any special chars may be used.
 
+-e
+Excel Mode (Excel Columns indicies, where 26 is AA instead of BA)
+
 # Examples
 
 Hexadecimal to decimal
@@ -33,7 +36,7 @@ Hexadecimal to decimal
 
 255
 
-Binary to hexadecimal
+Binary to decimal
 
 ./bxc.py -B 2 -b 10 100001
 
