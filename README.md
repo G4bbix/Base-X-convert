@@ -27,6 +27,7 @@ Appends characters to the alphabet. Any special chars may be used.
 
 -e
 Excel Mode (Excel Columns indicies, where 26 is AA instead of BA)
+WARNING: This only works from decimal to Excel
 
 # Examples
 
